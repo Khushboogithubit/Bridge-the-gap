@@ -410,6 +410,9 @@ a, button {
 .card:nth-child(3){
 	border-top: 5px solid greenyellow;
 }
+.card:nth-child(4){
+	border-top: 5px solid rgb(255, 47, 57);
+}
 .card:nth-child(1):hover {
 	box-shadow: inset 0px 0px 10px rgba(0,255,0,0.5),
 				1px 1px 30px rgba(0,255,0,0.5);
@@ -421,6 +424,10 @@ a, button {
 .card:nth-child(3):hover {
 	box-shadow: inset 0px 0px 10px rgba(176, 208, 14, 0.81),
 				1px 1px 30px  rgba(176, 208, 14, 0.81);
+}
+.card:nth-child(4):hover {
+	box-shadow: inset 0px 0px 10px rgb(255, 47, 57),
+				1px 1px 30px  rgb(255, 47, 57);
 }
 .totalcard .card img {
 	width: 100px;
@@ -461,12 +468,20 @@ a, button {
 	margin-left: 90px;
 	align-self: center;
 }
-.btn-roshan:hover {
-	background: rgba(0,255,0,0.7);
+.btn-kj:hover {
+	background: rgba(0,255,0,0.5);
 	color: #fff;
 }
-.btn-roshan2:hover {
+.btn-ks:hover {
 	background: rgba(0,0,255,0.5);
+	color: #fff;
+}
+.btn-kk:hover {
+	background: rgba(176, 208, 14, 0.81);
+	color: #fff;
+}
+.btn-is:hover {
+	background: rgb(255, 47, 57);
 	color: #fff;
 }
 .card-title {
